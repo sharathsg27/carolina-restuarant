@@ -1,0 +1,48 @@
+nav {
+  box-shadow: 0 2px 3px rgba(128, 128, 128, 0.34);
+}
+
+.banner-text {
+  color: #942024 !important;
+  font-size: 27px;
+}
+
+.headline {
+  color: #E9A94C;
+}
+.login-button {
+  border: 1px solid black;
+}
+
+.login-button:hover {
+  background-color: #fff;
+}
+
+.global-search {
+  position: relative;
+}
+
+.global-search input {
+  width: 400px;
+}
+
+.global-search input::-webkit-input-placeholder {
+  padding-left: 15px;
+  color: gray;
+  text-align: center;
+}
+
+.global-search input:focus {
+  border-color: #E9A94C;
+  text-align: center;
+}
+
+.global-search label {
+  position: absolute;
+  padding: 15px 25px;
+  font-size: 14px;
+  transform-origin: top left;
+  border-right: 1px solid rgba(128, 128, 128, 0.33);
+  line-height: 7px;
+}
+

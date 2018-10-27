@@ -1,0 +1,53 @@
+ul.nav-pills {
+  background-color: rgba(128, 128, 128, 0.16);
+  margin: 10px 0;
+}
+
+ul.nav-pills  li {
+  padding: 0 25px;
+  margin: 10px 0;
+  text-align: center;
+  border-right: 1px solid rgba(128, 128, 128, 0.26);
+}
+ul.nav-pills  li:last-child {
+  border: none;
+}
+
+ul.nav-pills li a {
+  color: #585858;
+  font-weight: 600;
+}
+
+ul.nav-pills a.nav-link {
+  background-color: transparent;
+}
+
+.filter-button span {
+  padding: 0 25px;
+  margin: 10px 0;
+}
+
+.card {
+  border-radius: 0;
+  margin-bottom: 5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  box-shadow: 0 1px 1px -1px rgba(73, 80, 87, 0.1803921568627451);
+}
+
+.card-title {
+  color: rgb(52, 58, 64);
+}
+.card-text {
+    color: rgba(128, 128, 128, 0.7411764705882353);
+}
+
+span.i-angle-bracket {
+  padding: 25px 0 !important;
+  color: rgba(128, 128, 128, 0.62);
+}
+
+span.rating {
+  color: rgba(255, 165, 0, 0.61);
+}
